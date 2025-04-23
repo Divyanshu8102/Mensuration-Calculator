@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 
-#define PI 3.14159
+#define PI 3.14159 
+// it is used to calculate in areas in value of pi
 
 void area_circle() {
     float r;
@@ -10,7 +11,7 @@ void area_circle() {
     printf("Area = %.2f\n", PI * r * r);
     printf("Perimeter = %.2f\n", 2 * PI * r);
 }
-
+// Function to calculate area and perimeter of a rectangle
 void area_rectangle() {
     float l, b;
     printf("Enter length and breadth: ");
@@ -18,7 +19,7 @@ void area_rectangle() {
     printf("Area = %.2f\n", l * b);
     printf("Perimeter = %.2f\n", 2 * (l + b));
 }
-
+// Function to calculate area and perimeter of a square
 void area_square() {
     float side;
     printf("Enter side: ");
@@ -26,7 +27,7 @@ void area_square() {
     printf("Area = %.2f\n", side * side);
     printf("Perimeter = %.2f\n", 4 * side);
 }
-
+// Function to calculate area and perimeter of a triangle
 void area_triangle() {
     float a, b, c, s, area;
     printf("Enter sides a, b and c: ");
@@ -36,7 +37,7 @@ void area_triangle() {
     printf("Area = %.2f\n", area);
     printf("Perimeter = %.2f\n", a + b + c);
 }
-
+// Function to calculate surface area and volume of a cube
 void volume_cube() {
     float side;
     printf("Enter side: ");
@@ -45,6 +46,7 @@ void volume_cube() {
     printf("Volume = %.2f\n", side * side * side);
 }
 
+//Its Function to calculate surface area and volume of a cuboid
 void volume_cuboid() {
     float l, b, h;
     printf("Enter length, breadth and height: ");
@@ -52,7 +54,7 @@ void volume_cuboid() {
     printf("Surface Area = %.2f\n", 2 * (l*b + b*h + h*l));
     printf("Volume = %.2f\n", l * b * h);
 }
-
+// This Function to calculate surface area and volume of a sphere
 void volume_sphere() {
     float r;
     printf("Enter radius: ");
